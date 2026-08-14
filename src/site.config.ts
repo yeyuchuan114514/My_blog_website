@@ -14,11 +14,11 @@ export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
 	author: "叶羽川",
 	// Used as the default description meta property and webmanifest description
-	description: "An opinionated starter theme for Astro",
+	description: "这是一个简洁的个人博客网站",
 	// HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
-	lang: "en-GB",
+	lang: "zh_CN",
 	// Meta property, found in src/components/BaseHead.astro L:42
-  ogLocale: "en_GB",
+  ogLocale: "zh_CN",
   // Determines whether to show the logo in the templates header
 	showLogo: true,
 	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
