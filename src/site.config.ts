@@ -3,7 +3,7 @@ import type { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
 	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
-	url: "https://astro-cactus.chriswilliams.dev/",
+	url: "https://yeyuchuan.qzz.io/",
 	/*
 		- Used to construct the meta title property found in src/components/BaseHead.astro L:11
 		- The webmanifest name found in astro.config.ts L:42
@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	*/
 	title: "Astro Cactus",
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-	author: "Chris Williams",
+	author: "叶羽川",
 	// Used as the default description meta property and webmanifest description
 	description: "An opinionated starter theme for Astro",
 	// HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
