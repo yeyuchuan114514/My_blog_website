@@ -16,9 +16,9 @@ export const siteConfig: SiteConfig = {
 	// Used as the default description meta property and webmanifest description
 	description: "这是一个简洁的个人博客网站",
 	// HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
-	lang: "zh_CN",
+	lang: "zh-CN",
 	// Meta property, found in src/components/BaseHead.astro L:42
-  ogLocale: "zh_CN",
+  ogLocale: "zh-CN",
   // Determines whether to show the logo in the templates header
 	showLogo: true,
 	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
